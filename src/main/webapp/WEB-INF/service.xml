@@ -1,0 +1,28 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.1.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_1_0.dtd">
+
+<service-builder package-path="com.company.orm.servicebuilder">
+    <namespace>namespacebuild</namespace>
+    <entity name="Vacancy" local-service="true">
+
+    	<!-- PK fields -->
+
+    	<!-- Group instance -->
+
+    	<column name="groupId" type="long"></column>
+
+    	<!-- Audit fields -->
+
+    	<column name="companyId" type="long"></column>
+    	<column name="userId" type="long"></column>
+    	<column name="userName" type="String"></column>
+    	<column name="createDate" type="Date"></column>
+    	<column name="modifiedDate" type="Date"></column>
+        <column name="name" type="String">
+     
+        </column>
+        <column name="dateOfPublication" type="String"></column>
+        <column name="organization" type="String"></column>
+        <column name="salary" type="String"></column>
+        <column name="url" type="String" primary="true"></column>
+    </entity>
+</service-builder>

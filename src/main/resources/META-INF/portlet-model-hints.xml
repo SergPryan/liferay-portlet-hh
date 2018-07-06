@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.company.orm.servicebuilder.model.Vacancy">
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="dateOfPublication" type="String" />
+		<field name="organization" type="String" />
+		<field name="salary" type="String" />
+		<field name="url" type="String" />
+	</model>
+</model-hints>
